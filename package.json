@@ -2,7 +2,7 @@
   "name": "pamaps-backend",
   "version": "1.0.0",
   "description": "The backend for pamaps.org",
-  "main": "app.js",
+  "main": "./src/Main.js",
   "scripts": {
     "test": "npm run test"
   },

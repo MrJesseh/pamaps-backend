@@ -14,6 +14,7 @@ require('./routes/map/getParkingMeterPoints')(app); // Gets all points for the p
 
 
 // Utility Endpoints ==============================================
+require('./routes/default/status')(app);
 
 
 // Authentication Endpoints ==============================================

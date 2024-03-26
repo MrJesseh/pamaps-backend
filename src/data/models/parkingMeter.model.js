@@ -21,4 +21,4 @@ const ParkingMeterSchema = new mongoose.Schema({
 
 const parkingMeterModel = ParkingMeters.model("parking-meter", ParkingMeterSchema, "parking-meters");
 
-module.exports = {parkingMeter: parkingMeterModel};
+module.exports = parkingMeterModel;
