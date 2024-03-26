@@ -1,0 +1,15 @@
+{
+  "name": "pamaps-backend",
+  "version": "1.0.0",
+  "description": "The backend for pamaps.org",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "Jesse",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.2.3"
+  }
+}
