@@ -1,11 +1,13 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+const cors = require('cors');
 
 
 // Set Express Properties =========================================
 app.use("/assets", express.static(__dirname + "/assets"));
 app.use('/media', express.static(__dirname + '/assets/img'));
+app.use(cors());
 
 //! GET requsts ===================================================
 
